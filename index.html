@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organizador de Inventário Medieval</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Organizador de Inventário Medieval</h1>
+      <p class="subtitle">Valentes aventureiros, organize os tesouros do reino!</p>
+
+      <div class="input-group">
+        <label for="items-input">Itens do Tesouro (separados por vírgula):</label>
+        <textarea id="items-input" placeholder="Ex: Poções de Mana, Espadas de Prata, Escudos Retorcidos"></textarea>
+      </div>
+
+      <div class="button-group">
+        <button id="decipher-btn" style="--clr: #ffcc00"><span>ORGANIZAR</span><i></i></button>
+        <button id="return-btn" style="--clr: #ff0044"><span>RETORNAR</span><i></i></button>
+      </div>
+
+      <div class="result-container">
+        <h2>Inventário Organizado:</h2>
+        <div id="result-output"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
