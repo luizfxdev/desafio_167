@@ -1,4 +1,6 @@
 Organizador de Inventário Medieval
+
+
 Valentes aventureiros, a rainha do reino de JavaScriptia precisa de sua ajuda imediata! Seus cofres do tesouro estão uma verdadeira bagunça após a última batalha contra os dragões de bugs. 
 
 Sua missão é simples: transformar a lista caótica de itens em um inventário organizado 🏰.
